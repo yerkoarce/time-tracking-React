@@ -1,4 +1,7 @@
-export const data = [
+import type { Data } from "../types";
+
+
+export const data : Data = [
   {
     title: "Work",
     timeframes: {
