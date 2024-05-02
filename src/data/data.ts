@@ -1,7 +1,7 @@
 import type { Data } from "../types";
 
 
-export const data : Data = [
+export const data : Data[] = [
   {
     title: "Work",
     timeframes: {
