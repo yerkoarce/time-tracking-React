@@ -5,9 +5,9 @@ function App() {
 
   return (
     <>
-      <h1 className="">Time tracking</h1>
+      <h1 className=" font-rubik">Time tracking</h1>
 
-      
+       
     </>
   )
 }
