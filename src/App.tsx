@@ -1,3 +1,6 @@
+import Card from "./components/Card"
+import { data } from "./data/data"
+
 
 
 function App() {
@@ -6,7 +9,7 @@ function App() {
   return (
     <>
       
-      <section className="grid">
+      <section className="grid grid-rows-1 grid-cols-4">
         <article>
           <div className=" grid-rows-2 bg-blue max-w-64 rounded-2xl p-10  ">
             <img 
@@ -23,6 +26,14 @@ function App() {
             <button className="text-soft-blue text-start">Monthly</button>
           </div>
         </article>
+        <div>
+          {data.map(activity => (
+            <Card 
+              key={activity.title}
+              activity={activity}
+            />
+          ))}
+        </div>
       </section>
 
        
